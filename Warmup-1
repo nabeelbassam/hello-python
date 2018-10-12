@@ -1,0 +1,32 @@
+#sleep_in 
+def sleep_in(weekday, vacation):
+  return(not weekday or  vacation)
+  
+  
+#monkey_trouble
+def monkey_trouble(a_smile, b_smile):
+  return   a_smile==b_smile
+  
+
+#sum_double 
+def sum_double(a, b):
+  if a==b : return 2*(a+b)
+  else :  return a+b
+  
+  
+#front3 
+def front3(str):
+  if len(str)<3 : return 3*str
+  else : return str[0:3]*3
+  
+  
+#makes10
+def makes10(a, b):
+  return a==10 or b==10 or a+b==10
+  
+#parrot_trouble 
+def parrot_trouble(talking, hour):
+  return talking and (hour<7 or hour>20)
+
+
+  
